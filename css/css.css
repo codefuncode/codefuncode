@@ -16,7 +16,7 @@
     height: 40px;
 }
 body {
-    background-image: url("../img/estrellas.gif");
+    /*background-image: url("../img/estrellas.gif");*/
     background-size: cover;
     background-repeat: no-repeat;
 }
