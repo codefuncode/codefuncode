@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cafe House - Contact Info.</title>
-<!-- 
+<!--
 Cafe House Template
 http://www.templatemo.com/tm-466-cafe-house
 -->
@@ -22,7 +22,8 @@ http://www.templatemo.com/tm-466-cafe-house
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="js/chat.js" type="text/javascript">
+    </script>
   </head>
   <body>
     <!-- Preloader -->
@@ -50,9 +51,9 @@ http://www.templatemo.com/tm-466-cafe-house
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
               </ul>
-            </nav>   
-          </div>           
-        </div>    
+            </nav>
+          </div>
+        </div>
       </div>
     </div>
     <section class="tm-welcome-section">
@@ -60,16 +61,16 @@ http://www.templatemo.com/tm-466-cafe-house
         <div class="tm-lights-container">
           <img src="img/light.png" alt="Light" class="light light-1">
           <img src="img/light.png" alt="Light" class="light light-2">
-          <img src="img/light.png" alt="Light" class="light light-3">  
-        </div>        
+          <img src="img/light.png" alt="Light" class="light light-3">
+        </div>
         <div class="row tm-welcome-content">
           <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="img/header-line.png" alt="Line" class="tm-header-line">&nbsp;Contact Us&nbsp;&nbsp;<img src="img/header-line.png" alt="Line" class="tm-header-line"></h2>
           <h2 class="gold-text tm-welcome-header-2">Cafe House</h2>
           <p class="gray-text tm-welcome-description">Cafe House is free <span class="gold-text">responsive Bootstrap</span> v3.3.5 layout by <span class="gold-text">templatemo</span>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-          <a href="#main" class="tm-more-button tm-more-button-welcome">Message Us</a>      
+          <a href="#main" class="tm-more-button tm-more-button-welcome">Message Us</a>
         </div>
-        <img src="img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">            
-      </div>      
+        <img src="img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">
+      </div>
     </section>
     <div class="tm-main-section light-gray-bg">
       <div class="container" id="main">
@@ -90,16 +91,16 @@ http://www.templatemo.com/tm-466-cafe-house
                 <textarea id="contact_message" class="form-control" rows="6" placeholder="MESSAGE"></textarea>
               </div>
               <div class="form-group">
-                <button class="tm-more-button" type="submit" name="submit">Send message</button> 
-              </div>               
+                <button class="tm-more-button" type="submit" name="submit">Send message</button>
+              </div>
             </div>
             <div class="col-lg-6 col-md-6">
               <div id="google-map"></div>
-            </div> 
+            </div>
           </form>
         </section>
       </div>
-    </div> 
+    </div>
     <footer>
       <div class="tm-black-bg">
         <div class="container">
@@ -130,15 +131,15 @@ http://www.templatemo.com/tm-466-cafe-house
                 <a href="#" class="tm-social-icon"><i class="fa fa-behance"></i></a>
               </div>
             </div>
-          </div>          
-        </div>  
-      </div>      
+          </div>
+        </div>
+      </div>
       <div class="container">
           <div class="row tm-copyright">
            <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2084 Your Cafe House</p>
-         </div>  
+         </div>
       </div>
-   </footer> <!-- Footer content-->  
+   </footer> <!-- Footer content-->
    <!-- JS -->
    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
    <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
@@ -154,13 +155,13 @@ http://www.templatemo.com/tm-466-cafe-house
           center: new google.maps.LatLng(13.758468,100.567481),
           scrollwheel: false
         };
-        
+
         map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
 
         google.maps.event.addDomListener(map, 'idle', function() {
           calculateCenter();
         });
-        
+
         google.maps.event.addDomListener(window, 'resize', function() {
           map.setCenter(center);
         });
@@ -176,8 +177,8 @@ http://www.templatemo.com/tm-466-cafe-house
         script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
         document.body.appendChild(script);
       }
-      $(document).ready(function(){                
-        loadGoogleMap();                
+      $(document).ready(function(){
+        loadGoogleMap();
       });
       </script>
     </body>
