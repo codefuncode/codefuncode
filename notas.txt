@@ -1,3 +1,15 @@
 notas.txt
 
 https://codefuncode.github.io/codefuncode/
+
+Monitoreo del sitio web 24/7/365
+Comprobaciones de estado del sitio web
+Mantener su sitio web actualizado
+Deshacerse de los 404
+Garantizar la compatibilidad del navegador
+Renovación de nombre de dominio y alojamiento
+Copias de seguridad semanales del sitio web
+Asistencia del equipo de desarrollo (5 horas / mes)
+Recomendaciones y mejoras
+Reportes mensuales
+Mejorando la accesibilidad del sitio web
